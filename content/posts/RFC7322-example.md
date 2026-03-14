@@ -8,44 +8,6 @@ tags: ["rfc7322", "rfc", "style" ]
 toc: true
 ---
   
-# Abstract
-
-This document describes the fundamental and unique style conventions
-and editorial policies currently in use for the RFC Series.  It
-captures the RFC Editor's basic requirements and offers guidance
-regarding the style and structure of an RFC.  Additional guidance is
-captured on a website that reflects the experimental nature of that
-guidance and prepares it for future inclusion in the RFC Style Guide.
-This document obsoletes RFC 2223, "Instructions to RFC Authors".
-
-# Status of This Memo
-
-This document is not an Internet Standards Track specification; it is
-published for informational purposes.
-
-This document is a product of the Internet Architecture Board (IAB)
-and represents information that the IAB has deemed valuable to
-provide for permanent record.  It represents the consensus of the
-Internet Architecture Board (IAB).  Documents approved for
-publication by the IAB are not a candidate for any level of Internet
-Standard; see Section 2 of RFC 5741.
-
-Information about the current status of this document, any errata,
-and how to provide feedback on it may be obtained at
-http://www.rfc-editor.org/info/rfc7322.
-
-# Copyright Notice
-
-Copyright (c) 2014 IETF Trust and the persons identified as the
-document authors.  All rights reserved.
-
-This document is subject to BCP 78 and the IETF Trust's Legal
-Provisions Relating to IETF Documents
-(http://trustee.ietf.org/license-info) in effect on the date of
-publication of this document.  Please review these documents
-carefully, as they describe your rights and restrictions with respect
-to this document.
-
 ## Introduction
 
 The ultimate goal of the RFC publication process is to produce
