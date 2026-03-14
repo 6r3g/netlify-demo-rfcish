@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 theme = 'hugo-theme-rfcish'
-Copyright = "&copy; 2025 "
+Copyright = "&copy; 2026 "
 enableEmoji = true
 DefaultContentLanguage = "en"
 
