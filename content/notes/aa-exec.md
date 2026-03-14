@@ -7,7 +7,7 @@ tags: [shell,suid,sudo]
 toc: false
 ---
 
-## Shell
+## Shell
 
 It can be used to break out from restricted environments by spawning an interactive system shell.
 
