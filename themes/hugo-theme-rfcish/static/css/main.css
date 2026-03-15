@@ -204,7 +204,7 @@ h6.nocount:before {
 
 header {
 	margin: 2rem 0 0;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 	border-block: dashed 1px light-dark(var(--lightmode-fg-color), var(--darkmode-fg-color));
 	border-width: 0 0 1px;
 	display: flex;
