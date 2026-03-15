@@ -277,6 +277,7 @@ header .a {
 
 .hamburger {
   display: none;
+  font-size: 1.3rem;
   cursor: pointer;
   color: light-dark(var(--lightmode-fg-color), var(--darkmode-fg-color));
 }
